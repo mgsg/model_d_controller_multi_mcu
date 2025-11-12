@@ -17,15 +17,24 @@ The original footprint for all three PCBs has been slightly reduced for cost opt
 - For the Raspberry Pico MCU, the PCB inclues traces for an optional USB-C connector. This connector and a couple of resistors are the only SMD parts, all the rest uses THT parts.
 - Instead of 74hc4051 analog multiplexers with 8 channels, addon modules using the "denser" 74hc4061 variant with 16 channels have been used. They can be ordered for almost the same price as the 74hc4051. They can be directly soldered to the back PCB or mounted using "low profile" 3.5mm high sockets.
 
+![Back PCB Multi MCU front view](Images/model_d_controller_multi_mcu_backpcb_v3_3d_view_front.png)
+![Back PCB Multi MCU back view](Images/model_d_controller_multi_mcu_backpcb_v3_3d_view_back.png)
+
 ### Front PCB Changes
 - Added header for I2C 0.91" OLED display to front PCB. It will show the last readout value + CC code sent. Example:
     ```t
     OSC 2 Gain 89%
     MIDI CC 45
     ```
+    
+![Front PCB Multi MCU front view](Images/model_d_controller_multi_mcu_frontpcb_v3_3d_view_front.png)
+![Front PCB Multi MCU back view](Images/model_d_controller_multi_mcu_frontpcb_v3_3d_view_back.png)
+    
 ### Front Plate Changes
 - Added a cutout to the front plate for the OLED display.
 - Depending on where you live, laser cutting the Front Plate on acrylic can reduce the cost a lot (at the expense of legibility).
+
+![Front Panel Multi MCU front view](Images/model_d_controller_multi_mcu_panel_v3_3d_view_front.png)
 
 ### Future additions
 - Design extended front plate to laser cut that includes the front PCB extension with the 4 rotary encoders and ARGB leds from the daughterboard.
