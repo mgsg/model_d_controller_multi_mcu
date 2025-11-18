@@ -1,6 +1,6 @@
-# model_d_controller_multi_mcu
+# 20pi - Multi-MPU MIDI Model D Controller
 
-This is a fork of the original model_d_controller project hosted  [here](https://github.com/maasijam/model_d_controller). 
+This is a fork of the model_d_controller project hosted  [here](https://github.com/maasijam/model_d_controller). 
 
 ## Motivation
 
@@ -40,23 +40,6 @@ The original footprint for all three PCBs has been slightly reduced for cost opt
 - Design extended front plate to laser cut that includes the front PCB extension with the 4 rotary encoders and ARGB leds from the daughterboard.
 - Design case to 3D print.
 
-## Original README
+## Original Project Documentation
 
-Teensy based USB Midi-Controller for the Moog Model D App (and of course all other USB-MIDI devices).
-
-![Assembly guide](Hardware/modeld_controller_assembly_guide.pdf)
-
-Disclaimer: This is a DIY project. Use at your own risk.
-
-![maasijam model d midi controller](Images/maasijam_model_d_controller.jpg)
-
-![maasijam model d midi controller PCBs](Images/maasijam_model_d_controller_pcbs.jpg
-)
-
-The controller in action (YouTube links)
-
-[![Teensy DIY Midi Controller Jam - Moog Model D App, Fugue Machine](https://img.youtube.com/vi/qR_zFrnvdvk/0.jpg)](https://www.youtube.com/watch?v=qR_zFrnvdvk)
-
-[![Teensy DIY Midi Controller Jam - Moog Animoog App, Fugue Machine](https://img.youtube.com/vi/HAJEskUzX2w/0.jpg)](https://www.youtube.com/watch?v=HAJEskUzX2w)
-
-
+The complete original README can be accessed [here](https://github.com/maasijam/model_d_controller).
