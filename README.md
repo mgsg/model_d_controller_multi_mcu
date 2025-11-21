@@ -14,6 +14,12 @@ This is a fork of the model_d_controller project hosted  [here](https://github.c
 
 The original footprint for all three PCBs has been slightly reduced for cost optimization (5 front PCBs and 5 back PCBs now weight just under 1kg, to reduce shipping cost). 
 
+### Front Plate Changes
+- Added a cutout to the front plate for the OLED display.
+- Depending on where you live, laser cutting the Front Plate on acrylic can reduce the cost a lot (at the expense of legibility).
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front Panel"  alt="Front Panel" src="Images/20pi_panel_v3_3d_view_front.png" width="400">
+
 ### Back PCB Changes
 - Complete redesign. It supports now either an ESP32 H2 DevKitM, a Raspberry Pico or a Waveshare Zero RP2040.
 - It includes an optional front PCB extension (daughterboard) that supports 4 rotary encoders and 4 addressable RGB leds using a GPIO expander. A new enlarged front panel PCB will have to be designed to accomodate this new encoders (PENDING).
@@ -31,14 +37,8 @@ The original footprint for all three PCBs has been slightly reduced for cost opt
     MIDI CC 45
     ```
     
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB front view" alt="Front PCB front view" src="Images/20pi_frontpcb_v3_3d_view_front.png" width="400">
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB back view"  alt="Front PCB back view" src="Images/20pi_frontpcb_v3_3d_view_back.png" width="400">
-    
-### Front Plate Changes
-- Added a cutout to the front plate for the OLED display.
-- Depending on where you live, laser cutting the Front Plate on acrylic can reduce the cost a lot (at the expense of legibility).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front Panel"  alt="Front Panel" src="Images/20pi_panel_v3_3d_view_front.png" width="400">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB front view" alt="Front PCB front view" src="Images/20pi_frontpcb_v3_3d_view_front.png" width="400">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB back view"  alt="Front PCB back view" src="Images/20pi_frontpcb_v3_3d_view_back.png" width="400">
 
 ### Future additions
 - Design extended front plate to laser cut that includes the front PCB extension with the 4 rotary encoders and ARGB leds from the daughterboard.
