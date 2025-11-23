@@ -2,7 +2,7 @@
 
 This is a fork of the model_d_controller project hosted  [here](https://github.com/maasijam/model_d_controller). 
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Prototype" alt="Prototype" src="Images/20pi-prototype.png" width="400">
+  [//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Prototype" alt="Prototype" src="Images/20pi-prototype.png" width="400">)
 
  WARNING: This is a still unfinished DIY project. Use at your own risk!
  
